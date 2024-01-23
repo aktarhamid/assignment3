@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment3</title>
+    <!-- TailwinCss and Deisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Manrof Google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- tailwin coustom color -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- style tag start here -->
+    <style>
+        .font-manrof{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrof">
+    <header>
+        <!-- navbar section start here -->
+      <section class="container">
+        <nav class="max-w-6xl mx-auto my-8">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Item 1</a></li>
+                      <li><a>Parent</a></li>
+                      <li><a>Item 3</a></li>
+                      <li><a>Item 3</a></li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-red-500">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Item 1</a></li>
+                    <li><a>parents</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                    <li><a>Item 3</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-4">
+                    <a><img src="Images/Frame (4).svg" alt=""></a>
+                  <a class="btn bg-[#FF4240;] text-white text-lg">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+      </section>
+      <!-- Banner section start here -->
+      <section class="container">
+         <div class="max-w-6xl mx-auto my-8">
+            <div class="carousel w-full">
+                <div id="slide1" class="carousel-item relative w-full h-96">
+                  <img src="Images/1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full h-96">
+                  <img src="Images/2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+         </div>
+         <div class=" w-5/6 mx-auto lg:w-5/12 rounded-xl p-8 bg-black lg:absolute lg:right-24 lg:bottom-24">
+              <h1 class="text-2xl text-white font-bold py-2">
+                Meet all the heroes from the field
+              </h1>
+              <p class="text-white text-sm">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
+              </p>
+         </div>
+      </section>
+      <!-- Professional Hockeys Club section start here -->
+      <section class="container">
+         <div class="max-w-6xl mx-auto">
+            <div class="my-12">
+              <h1 class="text-center font-extrabold text-2xl">
+                Professional Hockeys Club
+              </h1>
+              <p class="text-center text-sm py-2 opacity-70"> 
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+              </p>
+            </div>
+            <div class="lg:flex p-4 space-x-8 space-y-12">
+                
+            </div>
+         </div>
+      </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

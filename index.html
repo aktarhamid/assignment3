@@ -17,7 +17,7 @@
           theme: {
             extend: {
               colors: {
-                clifford: '#da373d',
+                clifford: '#da373d', 
               }
             }
           }
@@ -42,22 +42,22 @@
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Item 1</a></li>
-                      <li><a>Parent</a></li>
-                      <li><a>Item 3</a></li>
-                      <li><a>Item 3</a></li>
-                      <li><a>Item 3</a></li>
+                      <li><a class="text-red-500 font-semibold">Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
                     </ul>
                   </div>
                   <a class="btn btn-ghost text-4xl font-extrabold">Hockey<span class="text-red-500">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li><a>parents</a></li>
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 3</a></li>
-                    <li><a>Item 3</a></li>
+                    <li><a class="text-red-500 font-semibold">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end space-x-4">
@@ -71,52 +71,299 @@
       <section class="container">
          <div class="max-w-6xl mx-auto my-8">
             <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full h-96">
+                <div id="slide1" class="carousel-item relative w-full h-full">
                   <img src="Images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full h-96">
-                  <img src="Images/2.png" class="w-full" />
+                <div id="slide2" class="carousel-item relative w-full h-full">
+                  <img src="Images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
          </div>
-         <div class=" w-5/6 mx-auto lg:w-5/12 rounded-xl p-8 bg-black lg:absolute lg:right-24 lg:bottom-24">
+         <div class=" w-5/6 mx-auto lg:w-5/12 rounded-xl p-8 bg-black lg:absolute lg:right-24 bottom-0">
               <h1 class="text-2xl text-white font-bold py-2">
                 Meet all the heroes from the field
               </h1>
-              <p class="text-white text-sm">
+              <p class="text-white text-sm opacity-70">
                 Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. 
               </p>
          </div>
       </section>
-      <!-- Professional Hockeys Club section start here -->
+    </header>
+    <!-- main section start here -->
+    <main>
+         <!-- Professional Hockeys Club section start here -->
       <section class="container">
-         <div class="max-w-6xl mx-auto">
-            <div class="my-12">
-              <h1 class="text-center font-extrabold text-2xl">
-                Professional Hockeys Club
-              </h1>
-              <p class="text-center text-sm py-2 opacity-70"> 
-                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+        <div class="max-w-6xl mx-auto mb-12">
+           <div class="mt-32">
+             <h1 class="text-center font-extrabold text-2xl">
+               Professional Hockeys Club
+             </h1>
+             <p class="text-center text-sm py-2 opacity-70"> 
+               Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+             </p>
+           </div>
+           <div class="max-w-6xl mx-auto lg:flex gap-12">
+               <div class="text-center pt-12">
+                   <div class="radial-progress text-[#FF4240]" style="--value:87;" role="progressbar">87%</div>
+                   <h1 class="text-xl font-semibold my-2">Prayer Facility</h1>
+                   <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+               </div>
+               <div class="text-center pt-12">  
+                   <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar">95%</div>
+                   <h1 class="text-xl font-semibold my-2">Experienced Coach</h1>
+                   <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+               </div>
+               <div class="text-center pt-12">
+                   <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar">90%</div>
+                   <h1 class="text-xl font-semibold my-2">Senior Player</h1>
+                   <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+               </div>
+               <div class="text-center pt-12">
+                   <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar">80%</div>
+                   <h1 class="text-xl font-semibold my-2">Training Ground</h1>
+                   <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+               </div>
+           </div>
+        </div>
+     </section>
+       <!-- Program Sections start here -->
+        <section class="container">
+           <div class="max-w-6xl mx-auto"> 
+            <div>
+              <h1 class="font-extrabold text-3xl text-center mt-32">Program Sections</h1>
+                <p class="text-center pt-4 mb-8 opacity-70">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. 
+               </p>
+            </div>
+              <div class="lg:flex gap-4">
+                <div>
+                  <div class="card w-full max-w-xl bg-base-100 shadow-xl image-full">
+                    <figure><img src="Images/img2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title pt-20">Junior Program</h2>
+                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                      <div class="card-actions">
+                        <button class="btn border-0 text-white bg-[#FF4240;]">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="card w-full max-w-xl bg-base-100 shadow-xl image-full">
+                    <figure><img src="Images/3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title pt-20">Junior Program</h2>
+                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+                      <div class="card-actions">
+                        <button class="btn border-0 text-white bg-[#FF4240;]">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="mt-2 ">
+                  <div class="card w-6xl bg-base-100 shadow-xl image-full">
+                    <figure><img src="Images/4.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title pt-48">Junior Program</h2>
+                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
+                      <div class="card-actions">
+                        <button class="btn border-0 text-white bg-[#FF4240;]">Register Now!</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </section>
+        <!-- Clients Question section start here-->
+        <section class="container">
+           <div class="max-w-6xl mx-auto">
+             <div>
+              <h1 class="text-center text-4xl font-extrabold mt-32">Clients Question</h1>
+              <p class="text-center mt-4 opacity-70">
+                 Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                 dolor. Purus urna in sit nullam proin.
+               </p>
+             </div>
+             <div class="lg:flex mx-16">
+               <div class="m-8">
+                <img src="Images/11.png" alt="">
+               </div>
+                 <div class="space-y-3 m-8">
+                  <!-- Accordion -->
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Dolor sit amet consectetur. Ut urna diam quis sagittis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Ski Touring
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Click to open this one and close others
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+        </section>
+       <!-- Get In Touch -->
+       <section class="container">
+           <div class="max-w-6xl mx-auto my-20">
+            <div>
+              <h1 class="text-2xl font-bold text-center">Get In Touch</h1>
+              <p class=" text-center pt-2 opacity-70">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam 
+                turpis placerat <br> dolor. Purus urna in sit nullam proin. 
               </p>
             </div>
-            <div class="lg:flex p-4 space-x-8 space-y-12">
-                
+            <div class=" lg:flex space-x-4 mx-24">
+               <div class="my-12 ">
+                <div class="bg-red-100 rounded-2xl py-12 px-8 w-80 h-48 mt-2 lg:m-8">
+                  <img src="Images/Group 1171275317.png" alt="">
+                  <p class="pt-4">Phone Number : </p>
+                    <h5 class="font-bold pt-2">(+62) 123-321-543</h5>
+                </div>
+                <div class="bg-yellow-100 rounded-2xl py-12 px-8 w-80 h-48 mt-2 lg:m-8">
+                  <img src="Images/Group 1171275318.png" alt="">
+                  <p class="pt-4">Email :</p>
+                  <h5 class="font-bold pt-2">hockeys@support.com</h5>
+                </div>
+                <div class="bg-blue-100 rounded-2xl py-12 px-8 w-80 h-48 mt-2 lg:m-8">
+                  <img src="Images/Group 1171275321.png" alt="">
+                  <p class="pt-4">Location :</p>
+                  <h5 class="font-bold pt-2">152/1 Mohakhali Wireless Gate</h5>
+                </div>
+               </div>
+               <div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-20 mb-8">
+                  <div>
+                    <label for="name" class="font-bold">Your Name</label> <br>
+                    <input type="text" placeholder="Enter your name" class="mt-2 input input-bordered input-primary w-full max-w-xs" />
+                  </div>
+                  <div>
+                    <label for="name" class="font-bold">Your Name</label> <br>
+                    <input type="text" placeholder="Enter your name" class="mt-2 input input-bordered input-primary w-full max-w-xs" />
+                  </div>
+                  <div>
+                    <label for="name" class="font-bold">Your Name</label> <br>
+                    <input type="text" placeholder="Enter your name" class="mt-2 input input-bordered input-primary w-full max-w-xs" />
+                  </div>
+                  <div>
+                    <label for="name" class="font-bold">Your Name</label> <br>
+                    <input type="text" placeholder="Enter your name" class="mt-2 input input-bordered input-primary w-full max-w-xs" />
+                  </div>
+                </div>
+                <div>  
+                  <label for="name" class="font-bold">Send Message</label> <br>
+                    <input type="text" placeholder="Enter your name" class="mt-2 input input-bordered input-primary w-full max-w-lg h-72"/>
+                    <button class="btn mt-8  max-w-lg w-full bg-[#FF4240;] text-white">Send Message</button>
+                </div>
+               </div>
             </div>
-         </div>
-      </section>
-    </header>
-    <main>
-
+           </div>
+       </section>
+       <!-- Social Media -->
+       <section class="container">
+        <div class=" bg-[#13131810] py-8 max-w-6xl mx-auto">
+          <h1 class="text-center text-xl font-bold my-8">Social Media</h1>
+          <div class="flex justify-center">
+            <img src="Images/Social (1).svg" alt="">
+          </div>
+        </div>
+       </section>
     </main>
-    <footer>
-
+    <!-- footer section start here -->
+    <footer class="footer  mt-8 p-10 bg-[#131318] text-base-content">
+     <div class="gap-4 mx-auto lg:m-20">
+        <h1 class="text-xl font-extrabold text-white">Get In Touch</h1>
+        <p class="text-white">
+          Lorem ipsum dolor, sit amet consectetur <br> adipisicing elit. Quo deleniti ipsum, <br> dolorum vero repudiandae illo?<br> Magni, quia. Non, cum architecto?
+       </p>
+       <div class="flex gap-2"><img src="Images/Frame (4).png" alt=""> <p class="text-white">hockysaport.com</p></div>
+       <div class="flex gap-2"><img src="Images/Frame (5).png" alt=""> <p class="text-white">hockysaport.com</p></div>
+       
+     </div>
+      <div class="flex gap-32 m-20">
+        <div class="text-white space-y-4 gap-20">
+          <header class="footer-title text-xl font-extrabold">Company</header> 
+            <p>About</p>
+            <p>Leadership</p>
+            <p>Carears</p>
+            <p>News & Articles</p>
+            <p>Legal Notice</p>
+         </div> 
+          <div class="text-white space-y-4">
+            <header class="footer-title text-xl font-extrabold">Suport</header> 
+            <p>Help Center</p>
+            <p>FAQ</p>
+            <p>Ticket Support</p>
+            <p>Contact Us</p>
+          </div> 
+      </div>
+      <div class="text-white mx-auto lg:m-20 space-y-2">
+        <header class="footer-title text-xl sm:text-cebter font-extrabold">Service</header> 
+        <a class="link link-hover">Academy</a>
+        <a class="link link-hover">Group Lesson</a>
+        <a class="link link-hover">Private Lesson</a>
+        <a class="link link-hover">Hockys for kids</a>
+        <a class="link link-hover">Hockys for adalt</a>
+      </div>
     </footer>
 </body>
 </html>
